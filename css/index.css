@@ -114,7 +114,12 @@ section, footer{
 .top-content .text-container {
     width: 50%;
     padding: 0 1%;
-    padding-bottom: 4%;  
+}
+
+.text-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 .text-container h2 {
@@ -124,6 +129,7 @@ section, footer{
 /*Middle Section Styles*/
 .middle-content {
     margin-bottom: 4%;
+    border-bottom: 2px solid #ff4b00;
 }
 
 .middle-content h2 {
@@ -131,72 +137,92 @@ section, footer{
 }
 
 .middle-content .boxes {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-.middle-content .boxes {
     margin: 4% 0;
     color: white;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
 }
 
 .boxes {
-
+    display: flex;
+    flex-wrap:wrap;
+    grid-template-columns : repeat(5,1fr);
+    gap : 6rem;
 }
+
+.boxes > div{
+    min-height : 24rem;
+    flex:none;
+    width: calc(20% - 6rem);
+  }
 
 .box-one {
     color: white;
     background-color: teal;
-    padding: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .box-two {
     color: white;
     background-color: gold;
-    padding: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .box-three {
     color: white;
     background-color: cadetblue;
-    padding: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .box-four {
     color: white;
     background-color: coral;
-    padding: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .box-five {
     color: white;
     background-color: crimson;
-    padding: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .box-six {
     color: white;
     background-color: forestgreen;
-    padding: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .box-seven {
     color: white;
     background-color: darkorchid;
-    padding: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .box-eight {
     color: white;
     background-color: hotpink;
-    padding: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .box-nine {
     color: white;
     background-color: indigo;
-    padding: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .box-ten {
     color: white;
     background-color: dodgerblue;
-    padding: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /*Bottom Section Styles*/
@@ -206,7 +232,13 @@ section, footer{
 }
 
 .bottom-content .text-container {
-    width:25%;
+    width: 25%;
+    text-align: start;
+}
+
+.bottom-content .text-container h2 {
+    text-align: start;
+    margin-bottom: 3rem;
 }
 
 .bottom-content .text-container:last-child {
@@ -217,6 +249,16 @@ section, footer{
 footer {
     width: 100%;
     background-color: #ff4b00;
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-nav a {
+    text-decoration: none;
+    color: white;
 }
 
 /*About Page Styles*/
