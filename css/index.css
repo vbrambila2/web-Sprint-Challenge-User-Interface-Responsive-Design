@@ -49,6 +49,7 @@ table {
 
 * {
     box-sizing: border-box;
+    letter-spacing: .2rem;
 }
 
 html{
@@ -69,7 +70,7 @@ section, footer{
     padding:4% 0;
 }
 .container {
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
 }
 
@@ -263,5 +264,63 @@ footer {
 
 /*About Page Styles*/
 
+.about-page {
+    width: 100%;
+}
+
+.top-content .about-text-container {
+    width: 100%;
+    padding: 0 1%;
+}
+
+.about-text-container {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.middle-content-one img {
+    margin: 5rem 0;
+}
+
+.middle-content-one {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.middle-content-one div {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 2px solid #ff4b00;
+}
+
+.middle-content-one p {
+    margin: 2rem 0;
+}
+
+.middle-content-two img {
+    margin: 5rem 0;
+}
+
+.middle-content-two {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.middle-content-two div {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 2px solid #ff4b00;
+}
+
+.middle-content-two p {
+    margin: 2rem 0;
+}
+
+.about-end {
+    margin: 5rem 0;
+}
 
 /*Responsive Styles*/
