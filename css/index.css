@@ -75,6 +75,33 @@ section, footer{
 
 /*Top Section Styles*/
 
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem 10rem 2rem 10rem;
+}
+
+.logo {
+    width: 25%;
+}
+
+.nav-bar a {
+    margin: 2rem 6rem 2rem 6rem;
+    text-decoration: none;
+    color: black;
+}
+
+.header-image {
+    display: flex;
+    justify-content: center;
+    margin: 8rem 10rem 2rem 10rem;
+}
+
+.main-image {
+    width: 100%;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -85,9 +112,13 @@ section, footer{
 }
 
 .top-content .text-container {
-    width: 35%;
+    width: 50%;
     padding: 0 1%;
     padding-bottom: 4%;  
+}
+
+.text-container h2 {
+    text-align: center;
 }
 
 /*Middle Section Styles*/
@@ -105,13 +136,67 @@ section, footer{
     justify-content: space-between;
 }
 
-.middle-content .boxes .box {
-    background: black;
+.middle-content .boxes {
     margin: 4% 0;
     color: white;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
+}
+
+.boxes {
+
+}
+
+.box-one {
+    color: white;
+    background-color: teal;
+    padding: 5rem;
+}
+.box-two {
+    color: white;
+    background-color: gold;
+    padding: 5rem;
+}
+.box-three {
+    color: white;
+    background-color: cadetblue;
+    padding: 5rem;
+}
+.box-four {
+    color: white;
+    background-color: coral;
+    padding: 5rem;
+}
+.box-five {
+    color: white;
+    background-color: crimson;
+    padding: 5rem;
+}
+.box-six {
+    color: white;
+    background-color: forestgreen;
+    padding: 5rem;
+}
+.box-seven {
+    color: white;
+    background-color: darkorchid;
+    padding: 5rem;
+}
+.box-eight {
+    color: white;
+    background-color: hotpink;
+    padding: 5rem;
+}
+.box-nine {
+    color: white;
+    background-color: indigo;
+    padding: 5rem;
+}
+.box-ten {
+    color: white;
+    background-color: dodgerblue;
+    padding: 5rem;
 }
 
 /*Bottom Section Styles*/
