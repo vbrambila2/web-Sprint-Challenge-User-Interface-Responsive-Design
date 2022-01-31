@@ -324,3 +324,82 @@ footer {
 }
 
 /*Responsive Styles*/
+
+@media (max-width: 500px) {
+
+    .header img {
+        width: 75%;
+    }
+
+    .header {
+        display: flex;
+        flex-direction: column;
+        margin: 2rem 10rem 2rem 10rem;
+    }
+
+    .nav-bar {
+        display: flex;
+    }
+    
+    .nav-bar a {
+        margin: 3rem 2rem 3rem 2rem;
+    }
+    
+    .header-image {
+        margin: 2rem 1rem 1rem 1rem;
+    }
+
+    .top-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: left;
+    }
+    
+    .top-content .text-container {
+        width: 90%
+    }
+
+    .top-content h2 {
+        margin: 3rem 0;
+        font-size: 3rem;
+    }
+    
+    .boxes {
+        grid-template-columns : repeat(2,1fr);
+        gap : 2rem;
+    }
+    
+    .boxes > div{
+        min-height : 21.5rem;
+        width: calc(50% - 1rem);
+    }
+
+    .middle-content h2 {
+        text-align: center;
+        font-size: 3rem;
+    }
+
+    .bottom-content {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .bottom-content .text-container {
+        width: 100%;
+    }
+    
+    .bottom-content .text-container p {
+        margin-bottom: 3rem;
+    }
+
+    .footer-nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-nav a {
+        margin: 1rem 0;
+    }
+}
